@@ -1,2 +1,62 @@
-/venv/*
+**/venv/**
+**/dist/**
 .ipynb_checkpoints/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Setuptools build artifacts
+setuptools/build/
+setuptools/*.egg-info/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Others
+*.log
+*.sqlite3
+*.db
+*.pot
+*.mo
+
